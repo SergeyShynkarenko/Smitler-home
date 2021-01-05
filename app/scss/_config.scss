@@ -3,6 +3,7 @@
 $accent: #F9C869; // Accent Color
 $blue: #66C7CD;
 $red: #F86868;
+$dark: #1a1a1a;
 $fontsize: 16px; // Body Font Size
 $textcolor: #333; // Text Color
 $system: -apple-system, BlinkMacSystemFont, Arial, sans-serif; // System Font Family
@@ -19,6 +20,8 @@ $gutter: $grid-gutter-width;
 // @import 'node_modules/bootstrap/scss/bootstrap-grid.scss'; // Optional Bootstrap Grid
 // @import 'node_modules/bootstrap/scss/utilities/_sizing.scss'; // Optional Bootstrap Utilites
 @import '../libs/owl.carousel/assets/owl.theme.default.min.css';
+@import '../libs/mmenu/css/jquery.mmenu.all.css';
+@import '../libs/css-hamburgers/hamburgers.css';
 
 // FONTS LOAD SECTION
 
@@ -68,4 +71,13 @@ body {
 	opacity: 1;
 	overflow-x: hidden;
 	color: $textcolor;
+}
+section,
+header {
+	position: relative;
+	background-size: cover;
+	background-position: center;
+}
+section {
+	background-color: #fff;
 }

@@ -13,6 +13,7 @@ let paths = {
 			// 'node_modules/jquery/dist/jquery.min.js', // npm vendor example (npm i --save-dev jquery)
 			baseDir + '/libs/jquery/dist/jquery.min.js',
 			baseDir + '/libs/owl.carousel/owl.carousel.min.js',
+			baseDir + '/libs/mmenu/js/jquery.mmenu.all.min.js',
 			baseDir + '/js/app.js' // app.js. Always at the end
 		],
 		dest: baseDir + '/js',
