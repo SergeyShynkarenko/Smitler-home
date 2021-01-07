@@ -42,9 +42,19 @@
 	&-inner::after, 
 	&-inner::before {
 		border-radius: 0;
-		color: #fff;
 		width: 34px;
 		height: 2px;
 		background-color: #fff;
+	}
+}
+.mm-navbar {
+	height: auto;
+	position: relative;
+	.mm-title {
+ 		img {
+			width: 128px;
+			height: auto;
+			margin: 10px 0 35px;
+		}
 	}
 }
