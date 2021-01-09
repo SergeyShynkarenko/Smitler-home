@@ -17,8 +17,8 @@ $gutter: $grid-gutter-width;
 
 @import 'node_modules/bootstrap/scss/bootstrap-reboot.scss'; // Bootstrap Reboot collection
 @import 'node_modules/bootstrap/scss/mixins/_breakpoints.scss'; // Bootstrap Breakpoints mixin
-// @import 'node_modules/bootstrap/scss/bootstrap-grid.scss'; // Optional Bootstrap Grid
-// @import 'node_modules/bootstrap/scss/utilities/_sizing.scss'; // Optional Bootstrap Utilites
+@import 'node_modules/bootstrap/scss/bootstrap-grid.scss'; // Optional Bootstrap Grid
+@import 'node_modules/bootstrap/scss/utilities/_sizing.scss'; // Optional Bootstrap Utilites
 @import '../libs/owl.carousel/assets/owl.theme.default.min.css';
 @import '../libs/mmenu/css/jquery.mmenu.all.css';
 @import '../libs/css-hamburgers/hamburgers.css';
@@ -80,4 +80,8 @@ header {
 }
 section {
 	background-color: #fff;
+}
+.h1, .h2, .h3, .h4, .h5, .h6 {
+	line-height: 1.4;
+	text-transform: uppercase;
 }
