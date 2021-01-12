@@ -171,6 +171,9 @@ html.mm-opened {
 	p {
 		margin-top: 40px;
 	}
+	.button {
+		margin-top: 25px;
+	}
 }
 .welcome {
 	p {
@@ -180,18 +183,94 @@ html.mm-opened {
 		align-items: center;
 		white-space: nowrap;
 		margin: 0;
-		margin-bottom: -10px;
-		&::before,
-		&::after {
-			content: '';
-			height: 1px;
-			width: 100%;
-			position: relative;
-			background-color: #fff;
-			display: inline-block;
-		}
+			&::before,
+			&::after {
+				content: '';
+				height: 1px;
+				width: 100%;
+				position: relative;
+				background-color: #fff;
+				display: inline-block;
+			}
 		span {
 			margin: 0 10px;
 		}
+	}
+	.h1 {
+		font-weight: 100;
+		white-space: nowrap;
+		font-size: 70px;
+		margin: 0;
+		line-height: 1.6;
+		border-bottom: 1px solid #fff;
+
+	}
+	strong {
+		display: block;
+		text-transform: uppercase;
+		font-size: 17px;
+		margin-top: 25px;
+		.fa {
+			margin-right: 10px;
+			font-size: 12px;
+			color: #555;
+			&:last-child {
+				margin-left: 10px;
+				margin-right: inherit;
+			}
+		}
+	}
+}
+.header-social {
+	position: absolute;
+	right: 0;
+	top: 0;
+	height: 100%;
+	display: flex;
+	border-left: rgba(#fff, .1) 1px solid;
+	padding: 0 12.5px;
+}
+// icons
+.soc {
+	margin: auto;
+	ul, 
+	li {
+		margin: 0;
+		padding: 0;
+		list-style-type: none;
+		a {
+			color: #2c2c2c;
+			font-size: 17px;
+			display: block;
+			background-color: rgba(#fff, .2);
+			height: 38px;
+			width: 38px;
+			text-align: center;
+			margin: 18px 0;
+			line-height: 38px;
+			border-radius: 10em;
+			transition: background-color .25s ease;
+			&:hover {
+				background-color: rgba(#fff, .4); 
+			}
+		}
+	}
+}
+
+.header-contacts {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	border-top: rgba(#fff, .15) 1px solid;
+	padding: 12.5px 0;
+	width: 100%;
+	background-color: rgba(#151515, .15);
+	.fa {
+		margin-right: 5px;
+		color: #555;
+	}
+	.phone-h {
+		font-family: firasans, sans-serif;
+		text-align: center;
 	}
 }
