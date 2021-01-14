@@ -155,6 +155,23 @@ html.mm-opened {
 			opacity: .32;
 		}
 	}
+	&.button-white {
+		background-color: #fff;
+		color: #444;
+		&::after {
+			background-color: rgba(#000, .6);
+		}
+		&:hover {
+			&::after {
+				background-color: rgba(#000, .2);
+			}
+		}
+		&:active {
+			&::after {
+				background-color: rgba(#000, .4);
+			}
+		}
+	}
 }
 .header-flex {
 	display: flex;

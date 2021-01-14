@@ -20,6 +20,7 @@ $gutter: $grid-gutter-width;
 @import 'node_modules/bootstrap/scss/bootstrap-grid.scss'; // Optional Bootstrap Grid
 @import 'node_modules/bootstrap/scss/utilities/_sizing.scss'; // Optional Bootstrap Utilites
 @import '../libs/owl.carousel/assets/owl.theme.default.min.css';
+@import '../libs/owl.carousel/assets/owl.carousel.min.css';
 @import '../libs/mmenu/css/jquery.mmenu.all.css';
 @import '../libs/css-hamburgers/hamburgers.css';
 
@@ -55,6 +56,16 @@ $gutter: $grid-gutter-width;
 	color: #fff;
 }
 
+$colors: $blue, $red, $accent;
+@for $i from 1 through length($colors) {
+	.carousel-services {
+		.owl-item:nth-child(#{length($colors)}n+#{$i}) {
+			background-color: nth($colors, $i);
+		}
+	} 
+}
+
+
 input, textarea {
 	outline: none;
 	&:focus:required:invalid { border-color: red }
@@ -86,9 +97,3 @@ section {
 	text-transform: uppercase;
 }
 
-.container {
- margin-right: auto;
- margin-left: auto;
- padding-left: 15px;
- padding-right: 15px;
-}
