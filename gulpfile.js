@@ -15,6 +15,7 @@ let paths = {
 			baseDir + '/libs/owl.carousel/owl.carousel.min.js',
 			baseDir + '/libs/equalHeights/equalheights.js',
 			baseDir + '/libs/mmenu/js/jquery.mmenu.all.min.js',
+			baseDir + '/libs/fotorama/fotorama.js',
 			baseDir + '/js/app.js' // app.js. Always at the end
 		],
 		dest: baseDir + '/js',
