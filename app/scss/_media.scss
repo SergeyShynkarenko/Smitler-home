@@ -12,15 +12,14 @@
 	.carousel-services-item {
 		flex-direction: column;
 	}
-
-	// .s {
-	// 	&-king, &-review, &-partners {
-	// 		padding: 8% 0;
-	// 	}
-	// 	&-call {
-	// 		background-size: cover;
-	// 	}
-	// }
+	.s {
+		&-king, &-review, &-partners {
+			padding: 8% 0;
+		}
+		&-call {
+			background-size: cover;
+		}
+	}
 }
 
 @media (max-width : 992px) {

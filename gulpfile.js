@@ -16,6 +16,7 @@ let paths = {
 			baseDir + '/libs/equalHeights/equalheights.js',
 			baseDir + '/libs/mmenu/js/jquery.mmenu.all.min.js',
 			baseDir + '/libs/fotorama/fotorama.js',
+			baseDir + '/libs/selectize/js/standalone/selectize.min.js',
 			baseDir + '/js/app.js' // app.js. Always at the end
 		],
 		dest: baseDir + '/js',
