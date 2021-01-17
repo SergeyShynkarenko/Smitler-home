@@ -89,4 +89,13 @@ $(function() {
 		});
 		return false;
 	});
+
+	$('.reviews').owlCarousel({
+		loop: true,
+		items: 1,
+		smartSpeed: 700,
+		nav: false,
+		autoHeight: true
+	});
+
 });
