@@ -82,18 +82,20 @@
 			}
 		}
 	}
-	.social-footer {
-		margin-top: 0;
-		.soc {
-			li { 
-				a {
-					margin-top: 0;
+	.main-footer {
+		.social-footer {
+			margin-top: 0;
+			.soc {
+				li { 
+					a {
+						margin-top: 0;
+					}
 				}
 			}
 		}
-	}
-	.footer-menu {
-		padding-left: 0px;
+		.footer-menu {
+			padding-left: 20px;
+		}
 	}
 }
 
